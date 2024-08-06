@@ -1,0 +1,296 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  background-image: url("./img/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aeslogan {
+  color: #000000;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+}
+
+.anavbar {
+  background-color: #FFD000
+}
+
+.abutton {
+  background-color: #FFF220;
+  border: none;
+  font-size: 1rem;
+  padding: 13px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px 0px #FFF220;
+}
+
+.abutton:hover {
+  background-color: #FFD000;
+}
+
+.acarrusel {
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.atitle {
+  color: #FFD000;
+  text-shadow: 2px 4px 3px #000000;
+}
+
+.aparrafo {
+  color: #ffffff;
+  text-shadow: 2px 4px 3px #000000;
+}
+
+.apromo {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.aunete {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+}
+
+.atarifa {
+  background: rgba(255, 102, 0, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 95, 2, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  padding: 30px;
+  ;
+}
+
+.atitulos {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: 1000;
+  color: #000000;
+  text-shadow: 5px 5px 2px #FFD000;
+  text-align: center;
+}
+
+.asubtitulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 3px #ffffff;
+  text-align: center;
+}
+
+.aparrafo2 {
+  font-size: 1rem;
+  color: #000000;
+  text-shadow: 2px 2px 3px #ffffff;
+}
+
+.acard {
+  border: 0px;
+
+}
+
+.mycontainer {
+  margin: 20px;
+}
+
+.myfooter {
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+.enlacesfooter{
+  font-size: 25px;
+  color: #DBDBDB;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.enlacesfooter:hover {
+  font-size: 32px;
+  color: #FFD000;
+}
+
+.contacto-footer {
+  font-size: 29px;
+  color: #DBDBDB;
+  font-family: "Dancing Script", cursive;
+}
+
+.textfooter {
+  color: #DBDBDB;
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
+}
+
+.icon-footer {
+  color: #DBDBDB;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.icon-footer:hover {
+  font-size: 35px;
+  color: #ffd000;
+}
+
+.mycopy {
+  color: #ffffff;
+  margin: 0px;
+
+}
+
+/* Codigo card precios Universe.io*/
+
+.card-universeio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  padding: 10px 1px;
+  margin: 5px 0;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: #ffee00;
+  background: linear-gradient(45deg, #d9ff00 0%, #ff4800 100%);
+}
+
+.content {
+  padding: 10px;
+}
+
+.content .price {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.content .description {
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.content .title-universeio {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #DBDBDB;
+  margin-top: 0px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.button-universeio {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  color: #DBDBDB;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  width: 90%;
+  text-shadow: 0px 4px 18px #2c3442;
+}
+
+/*card pagos universeio */
+.card-pagos {
+  width: 210px;
+  height: 254px;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+}
+
+.card-pagos p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #ffee00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-pagos p:hover {
+  flex: 4;
+  background-color: #DBDBDB;
+}
+
+.card-pagos p span {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #fff456;
+  letter-spacing: .1em;
+  position: relative;
+  align-items: center;
+}
+
+.card-pagos p:hover span {
+  transform: rotate(0);
+  color: #DBDBDB;
+}
+
+.card-pagos p img {
+  display: none;
+  margin-top: 0.5em;
+  width: 100px;
+}
+
+.card-pagos p:hover span img {
+  display: block;
+}
+
+@media (max-width: 500px) {
+
+  .enlacesfooter{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto-footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .icon-footer {
+    padding-left: 25px;
+  }
+}
+

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Abloque</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg shadow-sm p-3 mb-5 anavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="Logo" width="60px">
+                </a>
+                <a href="./index.html" class="aeslogan">
+                    Fotografía Deportiva
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">
+                                <button class="abutton"><i class="fa-solid fa-house"></i> Inicio</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="abutton"><i class="fa-solid fa-users"></i> Nosotros</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#precios">
+                                <button class="abutton"><i class="fa-solid fa-dollar-sign"></i> Precios</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./formcontact.html">
+                                <button class="abutton"><i class="fa-solid fa-phone"></i> Contacto</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carrusel1.JPG" class="d-block w-100 p-3 acarrusel" alt="img_carrusel1">
+                        <div class="carousel-caption d-inline d-md-block apromo">
+                            <h4 class="atitle">Sincronía y Velocidad</h4>
+                            <p class="aparrafo">Cada pedaleada cuenta, y cada imagen captura la fuerza y la coordinación
+                                del equipo en movimiento. Inmortaliza el espíritu de la competencia en cada cuadro.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carrusel2.JPG" class="d-block w-100 p-3 acarrusel" alt="img_carrusel2">
+                        <div class="carousel-caption d-inline d-md-block apromo">
+                            <h4 class="atitle">Fuerza y Determinación</h4>
+                            <p class="aparrafo">Cada giro de la rueda cuenta una historia de superación. Descubre la
+                                potencia y el coraje de quienes desafían sus límites sobre dos ruedas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carrusel3.JPG" class="d-block w-100 p-3 acarrusel" alt="img_carrusel3">
+                        <div class="carousel-caption d-inline d-md-block apromo">
+                            <h4 class="atitle">Pasión por la Velocidad</h4>
+                            <p class="aparrafo">Capturamos la adrenalina en su máxima expresión. Cada foto es una
+                                explosión de energía, llevando la emoción del asfalto directamente a tus manos.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class=" mycontainer">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-sm-12 text-center aunete">
+                        <h1 class="atitulos">Únete a la Experiencia</h1>
+                        <h4 class="asubtitulo">Accede a Fotografías Exclusivas y Vive el Deporte Como Nunca Antes</h4>
+                        <p class="aparrafo2">Unete ahora para descubrir una galería de imágenes únicas que capturan la
+                            pasión y la emoción del deporte. Con nosotros tendrás acceso exclusivo a:</p>
+                        <div class="row d-flex justify-content-evenly row-gap-3">
+                            <div class="col-auto">
+                                <div class="card bg-transparent acard" style="width: 12rem;">
+                                    <img src="./img/gifCalidad.gif" class="card-img-top" alt="gifCalidad">
+                                    <div class="card-body">
+                                        <h5 class="card-title atitulos" style="font-size: 1.5rem;">Fotografías <br> de
+                                            <br> Alta Calidad
+                                        </h5>
+                                        <p class="card-text aparrafo2">Solicita y adquiere imágenes en resolución
+                                            profesional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="card bg-transparent acard" style="width: 12rem;">
+                                    <img src="./img/gifPromo.gif" class="card-img-top" alt="gifCalidad">
+                                    <div class="card-body">
+                                        <h5 class="card-title atitulos" style="font-size: 1.5rem;">Promociones <br> y
+                                            <br> Descuentos
+                                        </h5>
+                                        <p class="card-text aparrafo2">Disfruta de ofertas exclusivas reservadas solo
+                                            para ti.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="card bg-transparent acard" style="width: 12rem;">
+                                    <img src="./img/gifNuevoEven.gif" class="card-img-top" alt="gifNuevoEvento">
+                                    <div class="card-body">
+                                        <h5 class="card-title atitulos" style="font-size: 1.5rem;">Nuevas Colecciones y
+                                            Eventos</h5>
+                                        <p class="card-text aparrafo2">Solicita las últimas fotos de los eventos
+                                            deportivos más recientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="precios">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-sm-8 text-center d-flex flex-column align-items-center">
+                        <h1 class="atitulos">Nuestros Planes</h1>
+                        <h4 class="asubtitulo">Captura tus momentos favoritos con nuestras tarifas únicas. <br> Calidad
+                            y precios inigualables en cada fotografía.</h4>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-auto">
+                                <div class="card-universeio">
+                                    <div class="content">
+                                        <div class="title-universeio">Foto Individual</div>
+                                        <div class="description">1 foto</div>
+                                        <div class="price">COP 12,000</div>
+                                    </div>
+                                    <button class="button-universeio">
+                                        Pide la tuya
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="card-universeio">
+                                    <div class="content">
+                                        <div class="title-universeio">Foto Doble</div>
+                                        <div class="description">2 fotos</div>
+                                        <div class="price">COP 20,000</div>
+                                    </div>
+                                    <button class="button-universeio">
+                                        Pide la tuya
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="card-universeio">
+                                    <div class="content">
+                                        <div class="title-universeio">Paquete De Fotos</div>
+                                        <div class="description">3 fotos en adelante</div>
+                                        <div class="price">COP 9,000</div>
+                                        <div class="description">Cada una</div>
+                                    </div>
+                                    <button class="button-universeio">
+                                        Pide la tuya
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 text-center d-flex flex-column align-items-center atarifa justify-content-center">
+                        <h1 class="asubtitulo">¡No dejes que se te escapen tus momentos deportivos favoritos! <br>
+                            Lleva la acción a casa.</h1>
+                        <h5 class="atitulos" style="font-size: 1.5rem;">Metodos de Pago</h5>
+                        <div class="card-pagos">
+                            <p class="ppagos"><span>NEQUI
+                                    <img src="./img/img_nequi.png" width="100px" alt="">
+                                </span></p>
+                            <p class="ppagos"><span>DAVIPLATA
+                                    <img src="./img/img_daviplata.png" width="100px" alt="">
+                                </span></p>
+                            <p class="ppagos"><span>PSE
+                                    <img src="./img/IMG_PSE.png" width="100px" alt="">
+                                </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="myfooter">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-auto col-sm-3 d-flex justify-content-center">
+                    <img src="./img/logo2.png" alt="Logo" class="" width="150px">
+                </div>
+                <div class="col-auto col-sm-5">
+                    <a href="./index.html" class="enlacesfooter">Inicio</a>
+                    <a href="." class="enlacesfooter">Nosotros</a>
+                    <a href="./formcontact.html" class="enlacesfooter">Contacto</a>
+                </div>
+                <div class="col-auto col-sm-4">
+                    <p class="textfooter">
+                        <i class="fa-solid fa-location-dot"></i> Ibagué-Tolima
+                    </p>
+                    <p class="textfooter">
+                    <i class="fa-brands fa-whatsapp"> </i> +57 300 000 0000
+                </p>
+                    <p class="textfooter">
+                    <i class="fa-regular fa-envelope"> </i> abloquefotografias@gmail.com
+                </p>
+                    <h5 class="contacto-footer">Nuestras Redes</h5>
+                    <a href="#" class="icon-footer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="icon-footer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon-footer"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="icon-footer"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center border-top border-secondary border-opacity-50 mycopy">
+            <p>&copy; Abloque | Dev Alexis Cruz</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
